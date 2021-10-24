@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                .nav{
+            background-color:darkblue;
+            height:10vh;
+            width:100%;
+            position:fixed;
+            overflow:hidden;
+            top:0;
+        }
+        .nav a{
+            float:left;
+            text-decoration: none;
+            padding: 20px 20px;
+            font-size: 20px;
+            color:white;
+        }
+        a:hover{
+            background-color:cyan;
+        }
+        #v{
+        margin-left: 600px;
+        margin-top: 20px;
+        width:250px;
+        }
+        .main{
+            margin:200px;
+            
+        }
+        form{
+            margin-left: 200px;
+            
+            width: 30%;
+            
+        }
+        #btn{
+            margin:20px 30px;
+            background-color: burlywood;
+
+        }
+        #btn1{
+            background-color: burlywood;
+
+        }
+        #btn:hover{
+            
+            opacity:60%;
+        }
+        #btn1:hover{
+            
+            opacity:60%;
+        }
+        
+        #uname{
+            width:130%;
+
+        }
+         #pass{
+            width:130%;
+            
+        }
+        Body{
+            background-image: url("https://wallpaperaccess.com/full/1287395.jpg");
+            opacity:60%;
+        }
+         
+        
+
+         
+
+       
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="home.html">Home</a>
+        <a href="login.html">login</a>
+        <a href="index.html">sign up</a>
+        <input id="v" type="text" placeholder="Search"/>
+        
+
+    </div>
+    <div class="main">
+        <form> 
+            <table>
+                <tr>
+                    <td>
+                        <label style="color:white;">UserName</label>
+
+                    </td>
+                    </tr>
+                    <tr>
+
+                    <td>
+                    <input type="text" name="uname" id="uname" placeholder="enter your user name"  required/>
+                    </td>
+                </tr>
+                <tr >
+                
+                    <td  id="lb">
+                        <label  style="color:white;"> password</label>
+
+                    </td>
+                    </tr>
+                    <tr>
+
+                    <td>
+                    <input type="password" name="pass" id="pass" placeholder="enter your password"  required minlength="8" pattern="[a-Z*%]{0-9}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input  id="btn"type="submit" value="login"/>
+                        <input  id="btn1" type="submit" value="singh up"/>
+                    </td>
+                </tr>
+            
+            </table>
+        </form>
+    </div>
+   
+</body>
+</html>
